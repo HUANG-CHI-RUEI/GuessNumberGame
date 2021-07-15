@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GuessNumberGame</string>
+    <string name="guess_number">Guess number</string>
+    <string name="wrong_low">wrong, your number is so low</string>
+    <string name="wrong_hi">wrong, your number is so high</string>
+    <string name="congratuation">Congradution, your number is right!!!!</string>
+    <string name="guessWhat">Please enter your guess:</string>
+</resources>
