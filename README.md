@@ -3,3 +3,7 @@
 * 猜數字遊戲自我練習
 
 * 學習view binding
+
+當使用者在三次內猜對數字時(不包括三次)，回應:
+
+"Excellent! The number is 6" 、"超神的! 數字就是 6"
