@@ -1,8 +1,17 @@
 <resources>
-    <string name="app_name">GuessNumberGame</string>
-    <string name="guess_number">Guess number</string>
-    <string name="wrong_low">wrong, your number is so low</string>
-    <string name="wrong_hi">wrong, your number is so high</string>
-    <string name="congratuation">Congradution, your number is right!!!!</string>
-    <string name="guessWhat">Please enter your guess:</string>
+    <string name="app_name">guess</string>
+    <string name="guess_a_number_1_10">Guess a number(1-10)</string>
+    <string name="enter_your_number_here">Enter your number here</string>
+    <string name="guess">GUESS</string>
+    <string name="bigger">Bigger!</string>
+    <string name="smaller">Smaller!</string>
+    <string name="godlike">God like!</string>
+    <string name="goodjob">Good job!</string>
+    <string name="pleaseEnterANumber">Please enter a number!</string>
+    <string name="OK">OK</string>
+    <string name="tell_us_your_name">Tell us your name</string>
+    <string name="well_done">Well Done!</string>
+    <string name="your_record">Your Record:</string>
+    <string name="save">SAVE</string>
+    <string name="yournameplease">Your name. Please!</string>
 </resources>
