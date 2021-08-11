@@ -4,7 +4,6 @@ import android.app.Activity
 import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.guessnumbergame.databinding.ActivityRecordBinding
 
@@ -32,7 +31,7 @@ class RecordActivity : AppCompatActivity() {
                     .putString("NAME", name)
                     .apply()
 
-                var intent = Intent()
+                val intent = Intent()
                 intent.putExtra("RESULT", name)
                 setResult(Activity.RESULT_OK, intent)
                 finish()
