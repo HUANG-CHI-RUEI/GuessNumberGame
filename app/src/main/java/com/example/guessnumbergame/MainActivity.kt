@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
 
     private val NOT_PASS = 1
 
-    private val NOT_VALID = 2;
+    private val NOT_VALID = 2
 
-    private val REFRESH = 3;
+    private val REFRESH = 3
 
     private lateinit var myActivityLuncher: ActivityResultLauncher<Int>
 
@@ -124,7 +124,7 @@ class MainActivity : AppCompatActivity() {
 
     class MainActivityResultContract : ActivityResultContract<Int, String>() {
         override fun createIntent(context: Context, input: Int?): Intent {
-            var intent = Intent(context, RecordActivity::class.java)
+            val intent = Intent(context, RecordActivity::class.java)
             intent.putExtra("COUNT", input)
             return intent
         }
